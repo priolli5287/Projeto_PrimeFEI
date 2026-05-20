@@ -55,14 +55,15 @@ Diferente de implementações simplistas, o sistema utiliza botões de ação di
 Um dos pontos críticos abordados foi a segurança das credenciais da base de dados. Implementou-se a utilização de arquivos de configuração externos (.env), que são ignorados pelo controlo de versão (Git) através da pasta .gitignore.
 Isso evita a exposição de senhas sensíveis no repositório público do GitHub. 
 
-6. Instruções de Instalação e Utilização
+# 6. Instruções de Instalação e Utilização
  
 Para executar o projeto localmente, siga os passos abaixo: 
 1.	Certifique-se de ter o PostgreSQL instalado e o driver JDBC configurado no projeto.
 2.	Execute o script SQL presente em database.sql para criar as tabelas necessárias.
 3.	Configure as credenciais no arquivo config.properties na raiz do projeto.
 4.	Inicie a aplicação através da classe principal TelaInicial ou LoginJFrame.
-7. Conclusão
+   
+# 7. Conclusão
 O desenvolvimento deste projeto permitiu a consolidação de conhecimentos avançados em Java e bases de dados relacionais. A aplicação do padrão MVC provou ser essencial para resolver problemas de conectividade e organização de código que surgiram durante o ciclo de desenvolvimento. O resultado é um software funcional, seguro e documentado seguindo as melhores práticas da engenharia de software.
 
 
