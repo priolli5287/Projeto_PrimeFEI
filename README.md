@@ -21,7 +21,7 @@ Desenvolvedor: Lucas Melo Priolli
 Este relatório documenta o desenvolvimento de uma aplicação desktop robusta para a gestão e interação com conteúdos de vídeo (filmes/séries). O foco do projeto foi a criação de uma experiência personalizada, permitindo que utilizadores autenticados possam navegar num catálogo, pesquisar por critérios específicos e gerir as suas preferências através de sistemas de "Favoritos" e "Curtidas". 
 A aplicação foi desenvolvida em Java, utilizando a biblioteca Swing para a interface gráfica e o PostgreSQL como sistema de gestão de base de dados relacional. 
 
-#2. Arquitetura do Sistema (MVC)
+# 2. Arquitetura do Sistema (MVC)
  
 Para garantir a escalabilidade e a manutenção do código, foi adotado o padrão de projeto Model-View-Controller (MVC). Esta separação permite que a lógica de acesso aos dados seja independente da interface visual. 
 •	Model: Responsável pela representação dos dados e comunicação com o banco (DAOs).
